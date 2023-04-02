@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Write into Mq Queue</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <a class="navbar-brand" href="#">&nbsp;</a> </nav>
+<div class="row justify-content-center">
+  <form action="/action_page.php">
+    <br>
+    <table>
+      <tr>
+        <td><div>
+            <label for="fname">MQ NAME:</label>
+            <input type="text" id="mq" name="mq" size ="62">
+            <br>
+          </div></td>
+      </tr>
+    </table>
+    <br>
+    <table>
+      <tr>
+        <th>PayLoad</th>
+        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th>RFH2</th>
+      </tr>
+      <tr>
+        <td><div>
+            <textarea id="payload" name="payload" rows="11" cols="40"></textarea>
+            <br>
+            <br>
+          </div></td>
+        <td><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+        <td><div>
+            <label for="fname">RFH1:</label>
+            <input type="text" id="RFH1" name="rfh1" value="MIDANZ">
+            <br>
+            <br>
+            <label for="lname">RFH2:</label>
+            <input type="text" id="rfh2" name="rfh2" value="QCS">
+            <br>
+            <br>
+            <label for="fname">RFH3:</label>
+            <input type="text" id="rfh3" name="rfh3">
+            <br>
+            <br>
+            <label for="lname">RFH4:</label>
+            <input type="text" id="rfh4" name="rfh4">
+            <br>
+            <br>
+            <label for="lname">RFH5:</label>
+            <input type="text" id="rfh5" name="rfh5">
+            <br>
+            <br>
+            <label for="lname">RFH6:</label>
+            <input type="text" id="rfh6" name="rfh6">
+            <br>
+            <br>
+          </div></td>
+      </tr>
+    </table>
+    <div>
+      <div class="row justify-content-left">
+        <p><a class="btn btn-success btn-lg" href="#" role="button">Submit&nbsp;</a></p>
+        <label>&nbsp;&nbsp;&nbsp;</label>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Reset&nbsp;</a></p>
+      </div>
+    </div>
+  </form>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.4.1.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
